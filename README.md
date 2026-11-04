@@ -5,7 +5,7 @@
 **Data Scientist · PGDBA @ IIM Calcutta · IIT Kharagpur · ISI Kolkata**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/varsha-das)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:varsha.das04@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:varshadba2027@email.iimcal.ac.in)
 
 
 </div>
