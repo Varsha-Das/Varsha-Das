@@ -17,20 +17,30 @@ I'm a graduate student in the **PGDBA program** — a joint initiative of IIM Ca
 
 My work focuses on building rigorous, reproducible data science pipelines: from exploratory analysis to production-ready scripts. I care deeply about the *why* behind a model, not just the metric.
 
-- 🔭 Currently working on: **[Your active project — e.g., quant signal research / NLP pipeline]**
-- 🌱 Learning: **[e.g., MLOps · Transformer fine-tuning · Causal Inference]**
-- 💬 Ask me about: **[Your strongest area — e.g., time series / bioinformatics / sports analytics]**
+- 🎯 Interests: **optimization, forecasting and applied machine learning for business decisions**
+- 💬 Ask me about: **supply-chain and logistics analytics · time series & volatility · regression and classification modelling**
 
 ---
-## 📌 Featured Projects
+## 📌 Projects
 
-<!-- Fill in 2–4 of your best repos. One sharp sentence per project: WHAT + WHY it's interesting. Curate ruthlessly — less is more. -->
-
+### Academic (PGDBA coursework)
 | Project | What & Why | Stack |
 |---------|------------|-------|
-| [**project-name-1**](https://github.com/YOUR-USERNAME/repo-name) | One sharp sentence. What problem? What result? | `Python` `scikit-learn` `pandas` |
-| [**project-name-2**](https://github.com/YOUR-USERNAME/repo-name) | One sharp sentence. What problem? What result? | `SQL` `MongoDB` `Streamlit` |
-| [**project-name-3**](https://github.com/YOUR-USERNAME/repo-name) | One sharp sentence. What problem? What result? | `R` `AMPL` `statsmodels` |
+| [**Dark-Store Logistics Optimization**](https://github.com/Varsha-Das/dark-store-logistics-optimization) | Placed 11 dark stores across São Paulo and routed deliveries and returns on one shared network. Routing cost fell **31 %** and vehicle count **34 %**. | `OR-Tools` `PuLP` `XGBoost` `K-Means` |
+| [**Multimodal Semantic Pricing Engine**](https://github.com/Varsha-Das/multimodal-semantic-pricing-engine) | Amazon ML Challenge 2025: predicts product prices by fusing DeBERTa-v3 text and SigLIP-2 image embeddings. Test SMAPE 44.3 %, served through a FastAPI app. | `PyTorch` `Transformers` `FAISS` `FastAPI` |
+| [**Adaptive Portfolio Risk Analytics**](https://github.com/Varsha-Das/adaptive-portfolio-risk-analytics) | Portfolio allocation that adapts to market regimes, combining hierarchical risk parity, regime switching and macro sentiment. | `Python` `HRP` `HMM` `Risk` |
+| [**US Airline Delay Analysis**](https://github.com/Varsha-Das/us-airline-delay-analysis) | Six Sigma DMAIC study of 7M flights. Found that 75 % of delay minutes are controllable; a model of knock-on delays reaches R² 0.70. | `statsmodels` `SciPy` `K-Means` |
+| [**Pharma Cold-Chain Optimization**](https://github.com/Varsha-Das/pharma-cold-chain-optimization) | EOQ, transportation LP and Monte Carlo simulation for a vaccine and biologics cold chain, keeping service levels above 99.8 %. | `SciPy (HiGHS)` `NumPy` `Monte Carlo` |
+| [**Aluminium Price & Volatility Forecasting**](https://github.com/Varsha-Das/aluminium-price-volatility-forecasting) | Compares ARIMA, the GARCH family, SETAR and VAR on 32 years of prices. VAR(1) with oil and USD is most accurate at 3.24 % MAPE. | `statsmodels` `arch` `VAR` |
+| [**CLV RFM-Based Regression**](https://github.com/Varsha-Das/clv-rfm-regression) | Predicts customer lifetime value on Olist data using VIF checks, PCA, Elastic Net and hurdle models. R² improved from 0.54 to **0.81**. | `scikit-learn` `statsmodels` |
+| [**Topological Dynamic Community Detection**](https://github.com/Varsha-Das/topological-dynamic-community-detection) | Reproduces and extends an AAAI 2024 paper on persistent-homology community detection. Node2Vec + GraphSAGE beats the paper on ACC, NMI and ARI. | `PyTorch` `GUDHI` `GNNs` |
+
+### Personal
+| Project | What & Why | Stack |
+|---------|------------|-------|
+| [**Explainable Credit Default Risk**](https://github.com/Varsha-Das/credit-default-xai) | Credit-card default model built with XGBoost and recall-tuned thresholds. It explains its scores with SHAP and LIME, checks fairness by sex, compares against a Keras DNN and runs in a Streamlit dashboard. | `XGBoost` `SHAP` `LIME` `Streamlit` |
+| [**RBI Monetary Policy RAG**](https://github.com/Varsha-Das/RBI_MPR_RAG) | Q&A over several RBI Monetary Policy Reports that tracks how the policy stance changes between reports. Uses hybrid BM25 and dense retrieval with Cohere reranking, an evidence check and Llama 3.1, and cites its sources. | `LangChain` `BM25` `Cohere` `Llama 3.1` |
+| [**Lead Scoring & Prioritization**](https://github.com/Varsha-Das/lead-scoring-prioritization) | Built a lead-scoring model after a leakage audit and added a decision layer that works within 200 sales calls a day. Priority leads convert **2.37×** better than average. | `scikit-learn` `Logistic Regression` |
 
 ---
 ## 🛠️ Tech Stack
@@ -70,14 +80,14 @@ My work focuses on building rigorous, reproducible data science pipelines: from 
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=vybhav72954&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vybhav72954&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Varsha-Das&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Varsha-Das&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=vybhav72954&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Varsha-Das&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
