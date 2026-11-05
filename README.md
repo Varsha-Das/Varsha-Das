@@ -42,6 +42,12 @@ My work focuses on building rigorous, reproducible data science pipelines: from 
 | [**Retail Loyalty Segmentation**](https://github.com/Varsha-Das/retail-loyalty-segmentation) | Six stable behavioural segments (ARI 0.91) explain about **3× more** of next-year behaviour than spend tiers. Combined with RFM into a targeting grid, plus LLM-drafted campaign briefs. | `scikit-learn` `k-means` `SHAP` `Groq LLM` |
 | [**Predictive Maintenance for Cement Plants**](https://github.com/Varsha-Das/predictive-maintenance-cement) | Flags kiln and mill breakdowns 7 days ahead: catches **30 of 33** against 21 for tuned alarms within the same inspection budget, and also predicts the failure mode. | `LightGBM` `Isolation Forest` `SHAP` |
 
+### Competitions
+| Project | What & Why | Stack |
+|---------|------------|-------|
+| [**Trilytics '25: Farmer Income Prediction**](https://github.com/Varsha-Das/trilytics-farmer-income-prediction) 🥈 | **1st runner-up**, national analytics case competition (PGDBA Conclave × L&T Finance). Predicted farmer income for credit assessment of the unbanked; LightGBM + Optuna reached **20.8 % MAPE**, down from 36 % with OLS. | `LightGBM` `Optuna` `XGBoost` `SHAP` |
+| [**The Quantum Trial: Attrition Copilot**](https://github.com/Varsha-Das/quantum-trial-attrition-copilot) 🏁 | **National finalist** at Great Lakes Gurgaon (Crest 14). Segment-wise attrition models plus a GenAI Copilot that turns risk drivers into manager talking points before the weekly 1:1. | `CatBoost` `SHAP` `GenAI` |
+
 ### Personal
 | Project | What & Why | Stack |
 |---------|------------|-------|
