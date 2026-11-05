@@ -35,6 +35,13 @@ My work focuses on building rigorous, reproducible data science pipelines: from 
 | [**CLV RFM-Based Regression**](https://github.com/Varsha-Das/clv-rfm-regression) | Predicts customer lifetime value on Olist data using VIF checks, PCA, Elastic Net and hurdle models. R² improved from 0.54 to **0.81**. | `scikit-learn` `statsmodels` |
 | [**Topological Dynamic Community Detection**](https://github.com/Varsha-Das/topological-dynamic-community-detection) | Reproduces and extends an AAAI 2024 paper on persistent-homology community detection. Node2Vec + GraphSAGE beats the paper on ACC, NMI and ARI. | `PyTorch` `GUDHI` `GNNs` |
 
+### Havish M Consulting (internship assessment)
+| Project | What & Why | Stack |
+|---------|------------|-------|
+| [**Copper Price Risk & Hedging**](https://github.com/Varsha-Das/copper-price-risk-hedging) | Tested ML forecasts against the naive forecast for a cable maker's copper costs. No model beat naive on tradable prices, so the work turned to risk: calibrated GARCH bands pass formal backtests and a futures hedge cuts cost variance by **73 %**. | `statsmodels` `arch` `LightGBM` `SHAP` |
+| [**Retail Loyalty Segmentation**](https://github.com/Varsha-Das/retail-loyalty-segmentation) | Six stable behavioural segments (ARI 0.91) explain about **3× more** of next-year behaviour than spend tiers. Combined with RFM into a targeting grid, plus LLM-drafted campaign briefs. | `scikit-learn` `k-means` `SHAP` `Groq LLM` |
+| [**Predictive Maintenance for Cement Plants**](https://github.com/Varsha-Das/predictive-maintenance-cement) | Flags kiln and mill breakdowns 7 days ahead: catches **30 of 33** against 21 for tuned alarms within the same inspection budget, and also predicts the failure mode. | `LightGBM` `Isolation Forest` `SHAP` |
+
 ### Personal
 | Project | What & Why | Stack |
 |---------|------------|-------|
