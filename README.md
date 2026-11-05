@@ -17,8 +17,8 @@ I'm a graduate student in the **PGDBA program** — a joint initiative of IIM Ca
 
 My work focuses on building rigorous, reproducible data science pipelines: from exploratory analysis to production-ready scripts. I care deeply about the *why* behind a model, not just the metric.
 
-- 🎯 Interests: **optimization, forecasting and applied machine learning for business decisions**
-- 💬 Ask me about: **supply-chain and logistics analytics · time series & volatility · regression and classification modelling**
+- 🎯 Interests: **Predictive Modeling · Machine Learning · Statistical Inference · Time Series Forecasting · Risk Analytics · Python · SQL · Power BI · Agentic AI**
+- 💬 Ask me about: **regression and classification modelling · time series & volatility · supply-chain and logistics analytics · operations research & optimization · customer analytics · credit & portfolio risk · explainable ML · multimodal deep learning · RAG & LLM applications**
 
 ---
 ## 📌 Projects
