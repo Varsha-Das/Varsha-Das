@@ -32,27 +32,27 @@ My work focuses on building rigorous, reproducible data science pipelines: from 
 ### Academic (PGDBA coursework)
 | Project | What & Why | Stack |
 |---------|------------|-------|
-| [**Dark-Store Logistics Optimization**](https://github.com/Varsha-Das/dark-store-logistics-optimization) | Placed 11 dark stores across São Paulo and routed deliveries and returns on one shared network. Routing cost fell **31 %** and vehicle count **34 %**. | `OR-Tools` `PuLP` `XGBoost` `K-Means` |
 | [**Multimodal Semantic Pricing Engine**](https://github.com/Varsha-Das/multimodal-semantic-pricing-engine) | Amazon ML Challenge 2025: predicts product prices by fusing DeBERTa-v3 text and SigLIP-2 image embeddings. Test SMAPE 44.3 %, served through a FastAPI app. | `PyTorch` `Transformers` `FAISS` `FastAPI` |
 | [**Adaptive Portfolio Risk Analytics**](https://github.com/Varsha-Das/adaptive-portfolio-risk-analytics) | Portfolio allocation that adapts to market regimes, combining hierarchical risk parity, regime switching and macro sentiment. | `Python` `HRP` `HMM` `Risk` |
-| [**Topological Dynamic Community Detection**](https://github.com/Varsha-Das/topological-dynamic-community-detection) | Reproduces and extends an AAAI 2024 paper on persistent-homology community detection. Node2Vec + GraphSAGE beats the paper on ACC, NMI and ARI. | `PyTorch` `GUDHI` `GNNs` |
-| [**US Airline Delay Analysis**](https://github.com/Varsha-Das/us-airline-delay-analysis) | Six Sigma DMAIC study of 7M flights. Found that 75 % of delay minutes are controllable; a model of knock-on delays reaches R² 0.70. | `statsmodels` `SciPy` `K-Means` |
-| [**CLV RFM-Based Regression**](https://github.com/Varsha-Das/clv-rfm-regression) | Predicts customer lifetime value on Olist data using VIF checks, PCA, Elastic Net and hurdle models. R² improved from 0.54 to **0.81**. | `scikit-learn` `statsmodels` |
 | [**Aluminium Price & Volatility Forecasting**](https://github.com/Varsha-Das/aluminium-price-volatility-forecasting) | Compares ARIMA, the GARCH family, SETAR and VAR on 32 years of prices. VAR(1) with oil and USD is most accurate at 3.24 % MAPE. | `statsmodels` `arch` `VAR` |
+| [**Dark-Store Logistics Optimization**](https://github.com/Varsha-Das/dark-store-logistics-optimization) | Placed 11 dark stores across São Paulo and routed deliveries and returns on one shared network. Routing cost fell **31 %** and vehicle count **34 %**. | `OR-Tools` `PuLP` `XGBoost` `K-Means` |
+| [**Topological Dynamic Community Detection**](https://github.com/Varsha-Das/topological-dynamic-community-detection) | Reproduces and extends an AAAI 2024 paper on persistent-homology community detection. Node2Vec + GraphSAGE beats the paper on ACC, NMI and ARI. | `PyTorch` `GUDHI` `GNNs` |
+| [**CLV RFM-Based Regression**](https://github.com/Varsha-Das/clv-rfm-regression) | Predicts customer lifetime value on Olist data using VIF checks, PCA, Elastic Net and hurdle models. R² improved from 0.54 to **0.81**. | `scikit-learn` `statsmodels` |
+| [**US Airline Delay Analysis**](https://github.com/Varsha-Das/us-airline-delay-analysis) | Six Sigma DMAIC study of 7M flights. Found that 75 % of delay minutes are controllable; a model of knock-on delays reaches R² 0.70. | `statsmodels` `SciPy` `K-Means` |
 | [**Pharma Cold-Chain Optimization**](https://github.com/Varsha-Das/pharma-cold-chain-optimization) | EOQ, transportation LP and Monte Carlo simulation for a vaccine and biologics cold chain, keeping service levels above 99.8 %. | `SciPy (HiGHS)` `NumPy` `Monte Carlo` |
 
 ### Havish M Consulting (internship assessment)
 | Project | What & Why | Stack |
 |---------|------------|-------|
-| [**Predictive Maintenance for Cement Plants**](https://github.com/Varsha-Das/predictive-maintenance-cement) | Flags kiln and mill breakdowns 7 days ahead: catches **30 of 33** against 21 for tuned alarms within the same inspection budget, and also predicts the failure mode. | `LightGBM` `Isolation Forest` `SHAP` |
 | [**Copper Price Risk & Hedging**](https://github.com/Varsha-Das/copper-price-risk-hedging) | Tested ML forecasts against the naive forecast for a cable maker's copper costs. No model beat naive on tradable prices, so the work turned to risk: calibrated GARCH bands pass formal backtests and a futures hedge cuts cost variance by **73 %**. | `statsmodels` `arch` `LightGBM` `SHAP` |
+| [**Predictive Maintenance for Cement Plants**](https://github.com/Varsha-Das/predictive-maintenance-cement) | Flags kiln and mill breakdowns 7 days ahead: catches **30 of 33** against 21 for tuned alarms within the same inspection budget, and also predicts the failure mode. | `LightGBM` `Isolation Forest` `SHAP` |
 | [**Retail Loyalty Segmentation**](https://github.com/Varsha-Das/retail-loyalty-segmentation) | Six stable behavioural segments (ARI 0.91) explain about **3× more** of next-year behaviour than spend tiers. Combined with RFM into a targeting grid, plus LLM-drafted campaign briefs. | `scikit-learn` `k-means` `SHAP` `Groq LLM` |
 
 ### Personal
 | Project | What & Why | Stack |
 |---------|------------|-------|
-| [**Explainable Credit Default Risk**](https://github.com/Varsha-Das/credit-default-xai) | Credit-card default model built with XGBoost and recall-tuned thresholds. It explains its scores with SHAP and LIME, checks fairness by sex, compares against a Keras DNN and runs in a Streamlit dashboard. | `XGBoost` `SHAP` `LIME` `Streamlit` |
 | [**RBI Monetary Policy RAG**](https://github.com/Varsha-Das/RBI_MPR_RAG) | Q&A over several RBI Monetary Policy Reports that tracks how the policy stance changes between reports. Uses hybrid BM25 and dense retrieval with Cohere reranking, an evidence check and Llama 3.1, and cites its sources. | `LangChain` `BM25` `Cohere` `Llama 3.1` |
+| [**Explainable Credit Default Risk**](https://github.com/Varsha-Das/credit-default-xai) | Credit-card default model built with XGBoost and recall-tuned thresholds. It explains its scores with SHAP and LIME, checks fairness by sex, compares against a Keras DNN and runs in a Streamlit dashboard. | `XGBoost` `SHAP` `LIME` `Streamlit` |
 | [**Lead Scoring & Prioritization**](https://github.com/Varsha-Das/lead-scoring-prioritization) | Built a lead-scoring model after a leakage audit and added a decision layer that works within 200 sales calls a day. Priority leads convert **2.37×** better than average. | `scikit-learn` `Logistic Regression` |
 
 ---
